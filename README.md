@@ -33,6 +33,12 @@ We used the LogisticRegression classifier and the resampled data to fit the mode
 
 ## Results
 
+### Classification Report - Original Data
+<img src="Images/cr_originaldata.png" width="400" height="300">
+
+### Classification Report - Resampled Data
+<img src="Images/cr_resampleddata.png" width="400" height="300">
+
 ## Summary
 
 Based on the classification report (for original data) above the precision and the recall for the '0' class (healthy loan) is much better than that for the '1' class (high-risk loan). The precision for the 0 values is 1.0. This means that out of all the times that the model predicted the testing data observation to be the value 0, almost 100% of those predictions were correct. By contrast, out of all the times the model predicted a value of 1, 85% of those predictions were correct. Also, note the balanced accuracy score = 0.95 (95%). This shows that the model is able to correctly classify observations.
