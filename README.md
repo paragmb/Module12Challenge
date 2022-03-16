@@ -48,7 +48,7 @@ We used the LogisticRegression classifier and the resampled data to fit the mode
 
 - balanced accuracy score - 0.9520 (95.20 %)
 - precision score (avg) - 0.99 (99 %)
-- recall score (avg) - 0.99 (91 %)
+- recall score (avg) - 0.99 (99 %)
 
 ### Classification Report - Resampled Data
 <img src="Images/cr_resampleddata.PNG" width="600" height="125">
